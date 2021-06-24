@@ -1,0 +1,76 @@
+package ru.eugen.tema.pe.acasa.tema.pe{
+
+    public static class  TemaPentruAcasa {
+
+        int a = 4;
+        int b = 5;
+        int c = 8;
+        int d = 2;
+        float div = (float) c / d;
+        float sum = (float) b + div;
+        float mul = (float) a * sum;
+   System.out.println("Your result is:"+mul);
+
+
+        void printResult(5,6,8,2) {
+
+
+            static void printResult ( float a, float b, float c, float d){
+                float result = a * (b + (c / d));
+                System.out.println("Your result is: " + result);
+            }
+        }
+    }
+
+    private static  class TemaPentruAcasa2 {
+    String a1 = "privet";
+    String a2 = ",";
+    String a3 = "Name";
+    String a4 = "!";
+
+    String result = a1 + a2 + a3 +a4;
+  System.out.println( result );
+}
+
+    private static class TemapentruAcasa3{
+        int a = 5;
+        int b = 8;
+        int sum = a + b;
+        if (10 <= sum ) {
+            System.out.println(true);
+        }if else (sum >= 20){
+            System.out.println(true);
+        }else {
+            System.out.println( Folse );
+        }
+}
+
+    public static class TemaPentruAcasa4{
+        int a;
+        if (a >= 0){
+            System.out.println("nuumber is positiv");
+        }else {
+            System.out.println("number is negativ");
+        }
+        }
+
+    public static class TemaPentruAcasa5{
+        int a;
+        if (a >= 0){
+            System.out.println(true);
+        }   else {
+            System.out.println((false));
+            }
+        }
+
+    public static class TemaPentruAcasa6 {
+        int year = ('введите год');
+        if((year %4==0&&year %100==0)||(year %400==0)){
+            System.out.println('Год является високосным');
+        } else {
+            System.out.println('Год не является високосным');
+        }
+    }
+}
+
+
